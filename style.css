@@ -131,3 +131,71 @@ button[type="submit"]:hover {
 .dark-theme .result-link:hover {
     color: #90caf9;
 }
+
+@media (max-width: 1250px){
+    .container {
+        max-width: 600px;
+      }
+     
+      #search-form {
+         font-size: 1.5rem;
+         line-height: normal;
+      }
+    
+      #search-input {
+          font-size: 1.2rem;
+          line-height: normal;
+          width: 30px;
+      }
+}
+
+@media (max-width: 1100px) {
+    .container {
+        max-width: 600px;
+      }
+     
+      #search-form {
+         font-size: 1.2rem;
+         line-height: normal;
+      }
+    
+      #search-input {
+          font-size: 1.2rem;
+          line-height: normal;
+          width: 30px;
+      }
+}
+
+@media (max-width: 750px) {
+    .container {
+        max-width: 600px;
+      }
+     
+      #search-form {
+         font-size: 1.2rem;
+         line-height: normal;
+      }
+    
+      #search-input {
+          font-size: 1.5rem;
+          line-height: normal;
+          width: 30px;
+      }
+}
+
+@media(max-width: 420px) {
+  .container {
+    max-width: 600px;
+  }
+ 
+  #search-form {
+     font-size: 1.2rem;
+     line-height: normal;
+  }
+
+  #search-input {
+      font-size: 1.5rem;
+      line-height: normal;
+      width: 30px;
+  }
+}
